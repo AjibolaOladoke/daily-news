@@ -6,7 +6,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![daily-news](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![daily-news](images/preview.png)](https://github.com/Swift-Tech-Co/daily-news)
 
 ## Quick Install
 
@@ -75,14 +75,14 @@ Once connected, just ask your AI assistant:
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `DAILY_NEWS_API_BASE` | No | Override REST API URL (default: `https://www.swifttechco.com) |
+| `DAILY_NEWS_API_BASE` | No | Override REST API URL (default: `https://github.com/Swift-Tech-Co/daily-news) |
 | `DAILY_NEWS_MAX_ROWS` | No | Max results per query (default: 100) |
 
 Also supports `config.json` in the project root (env vars take precedence):
 
 ```json
 {
-  "api_base_url": "https://www.swifttechco.com",
+  "api_base_url": "https://github.com/Swift-Tech-Co/daily-news",
   "max_rows": 100
 }
 ```
@@ -132,7 +132,7 @@ Also supports `config.json` in the project root (env vars take precedence):
         "id": 123,
         "title": "...",
         "source": "...",
-        "link": "https://www.swifttechco.com",
+        "link": "https://github.com/Swift-Tech-Co/daily-news",
         "score": 85,
         "grade": "A",
         "signal": "bullish",
@@ -151,7 +151,7 @@ Also supports `config.json` in the project root (env vars take precedence):
         "author": "Vitalik Buterin",
         "handle": "VitalikButerin",
         "content": "...",
-        "url": "https://www.swifttechco.com",
+        "url": "https://github.com/Swift-Tech-Co/daily-news",
         "metrics": { "likes": 1000, "retweets": 200, "replies": 50 },
         "posted_at": "2026-03-17T09:00:00Z",
         "relevance": "high"
@@ -240,8 +240,6 @@ uv run daily-news-mcp
 
 ```bash
 
-
-
 ## License
 
 MIT
@@ -260,13 +258,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/daily-news
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [6551Team/daily-news](https://github.com/6551Team/daily-news) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
