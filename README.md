@@ -1,13 +1,12 @@
-<p align="center">
-  <b>Daily News MCP Server</b><br>
-  News Categories · Hot News · Trending Tweets · Crypto Intelligence
-</p>
+# daily-news
 
-<p align="center">
-  <a href="./docs/README_ZH.md">中文</a> | <a href="./docs/README_JA.md">日本語</a> | <a href="./docs/README_KO.md">한국어</a>
-</p>
+## What This Is
 
----
+This is part of the Swift Tech Co. working stack for product and engineering. It gathers the daily-news notes, examples and fixes that keep delivery fast, and doubles as the reference map we hand to whoever picks up this thread next.
+
+## Images
+
+[![daily-news](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Quick Install
 
@@ -240,33 +239,8 @@ uv run daily-news-mcp
 ```
 
 ```bash
-# MCP Inspector
 
-## Images
 
-[![daily-news](https://opengraph.githubassets.com/1/6551Team/daily-news)](https://www.swifttechco.com)
-
-npx @modelcontextprotocol/inspector uv --directory /path/to/daily-news run daily-news-mcp
-```
-
-### Project Structure
-
-```
-├── README.md                  # English
-├── docs/
-│   ├── README_ZH.md           # 中文
-│   ├── README_JA.md           # 日本語
-│   └── README_KO.md           # 한국어
-├── openclaw-skill/daily-news/     # OpenClaw Skill
-├── pyproject.toml
-├── config.json
-└── src/daily_news_mcp/
-    ├── server.py              # Entry point
-    ├── app.py                 # FastMCP instance
-    ├── config.py              # Config loader
-    ├── api_client.py          # HTTP client
-    └── tools.py               # 2 tools
-```
 
 ## License
 
@@ -282,14 +256,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [6551Team/daily-news](https://github.com/6551Team/daily-news) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
